@@ -3,6 +3,7 @@ int b = 4;
 int c = 3;
 int d = 2;
 int K = 6;
+int ON = 7;
 bool S = 0;
 
 long timer = 0;
@@ -16,6 +17,8 @@ void setup() {
   pinMode(c, OUTPUT);
   pinMode(d, OUTPUT);
   pinMode(K, INPUT);
+  pinMode(ON, OUTPUT);
+  digitalWrite(ON, LOW);
 
 }
 
